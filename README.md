@@ -49,33 +49,32 @@ The system helps identify early-stage plant infections using **AI-powered image 
 - **OpenCV**, **NumPy**, **Matplotlib**  
 - **TensorFlow**, **Keras**, **Scikit-learn**  
 - **Jupyter Notebook / Google Colab**
-
 ---
 
 ## How to Run
 ```bash
-git clone https://github.com/<your-username>/Plant_Disease_Segmentation_and_Classification.git
+git clone https://github.com/<your-username>/Plant_Disease_Segmentation_and_Classification.git](https://github.com/Josephbwanika/Kato_Joseph_Bwanika-Reg-2023-B291-11709_-Plant-Disease-Segmentation--GROUP-2-WORK.-.git
 cd Plant_Disease_Segmentation_and_Classification
 pip install -r requirements.txt
 jupyter notebook Plant_Disease_Segmentation_and_Classification.ipynb
 
 
 ## Future Work
-
-* Real-time detection via camera input.
-* Model deployment using Flask or TensorFlow Lite.
-* Grad-CAM visualization for model explainability.
+Real-time detection via camera input.
+Model deployment using Flask or TensorFlow Lite.
+Grad-CAM visualization for model explainability.
 
 ---
 
 ## References
-* TensorFlow & Keras Documentation
-* OpenCV Tutorials
-* EfficientNet Research Paper
-* Kaggle Plant Disease Dataset
+TensorFlow
+Keras Documentation
+OpenCV Tutorials
+EfficientNet Research Paper
+Kaggle Plant Disease Dataset
 ---
 
 ### Conclusion
-This project demonstrates how **AI and computer vision** can be applied to **agriculture** for early and accurate **plant disease detection**, supporting smarter and data-driven crop management.
+This project demonstrates how AI and computer vision can be applied to **agriculture for early and accurate plant disease detection, supporting smarter and data-driven crop management.
 ---
 
