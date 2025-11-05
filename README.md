@@ -1,18 +1,22 @@
-````
 # Plant Disease Segmentation and Classification (GROUP 2 WORK)
+
 **Author:** Kato Joseph Bwanika  
 **Reg. No:** 2023-B291-11709  
 **Course:** Artificial Intelligence – UMU University  
+
 ---
 
 ## Project Overview
 This project implements **automated plant leaf disease detection** using:
 - **OpenCV** for image segmentation to isolate diseased areas.  
 - **Deep Learning (EfficientNetB0)** for classifying different disease types.  
-The system helps identify early-stage plant infections using AI-powered image analysis.
+
+The system helps identify early-stage plant infections using **AI-powered image analysis**.
+
 ---
 
 ## Workflow Summary
+
 ### **Part A: Image Segmentation (OpenCV)**
 - Convert leaf images to grayscale.  
 - Apply **adaptive thresholding** and **morphological operations**.  
@@ -20,11 +24,13 @@ The system helps identify early-stage plant infections using AI-powered image an
 - Calculate infection percentage based on pixel area.
 
 ### **Part B: Disease Classification (Deep Learning)**
-- Dataset split: 75% Training / 25% Testing.  
+- Dataset split: **75% Training / 25% Testing**.  
 - Used **EfficientNetB0 (Transfer Learning)**.  
 - Applied **data augmentation** to prevent overfitting.  
 - Achieved **~94% accuracy** on test data.
+
 ---
+
 ## Results
 | Metric | Value |
 |--------|--------|
@@ -35,9 +41,10 @@ The system helps identify early-stage plant infections using AI-powered image an
 
 **Example Prediction:**  
 `Input: Tomato leaf → Predicted: Early Blight (Confidence: 97.8%)`
+
 ---
 
-##  Tools & Technologies
+## Tools & Technologies
 - **Python 3.x**  
 - **OpenCV**, **NumPy**, **Matplotlib**  
 - **TensorFlow**, **Keras**, **Scikit-learn**  
@@ -51,20 +58,7 @@ git clone https://github.com/<your-username>/Plant_Disease_Segmentation_and_Clas
 cd Plant_Disease_Segmentation_and_Classification
 pip install -r requirements.txt
 jupyter notebook Plant_Disease_Segmentation_and_Classification.ipynb
-````
 
-### Sample `requirements.txt`
-
-```
-tensorflow>=2.10.0
-opencv-python
-numpy
-matplotlib
-pandas
-scikit-learn
-seaborn
-```
----
 
 ## Future Work
 
@@ -74,7 +68,7 @@ seaborn
 
 ---
 
-## 📚 References
+## References
 * TensorFlow & Keras Documentation
 * OpenCV Tutorials
 * EfficientNet Research Paper
